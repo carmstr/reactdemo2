@@ -16,7 +16,7 @@ build:
         manual:
           - src: "src/**/*.ts"
             dest: .
-    - image: chrispie4/ticketing-client
+    - image: chrispie4/react-client
       context: client
       docker:
         dockerfile: Dockerfile
